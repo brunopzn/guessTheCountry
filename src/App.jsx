@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import GuessTheCountry from './Components/guessTheCountry'
 
 
 
@@ -8,7 +9,7 @@ function App() {
 
   return (
     <>
-      
+      <GuessTheCountry/>
     </>
   )
 }

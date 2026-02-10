@@ -80,12 +80,18 @@ h3 {
 
 .imgBox {
     display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
     width: 198px;
     height: 113px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     background: #d9d9d9;
+    overflow: hidden;
+}
 
+img {
+    width: 200px;
 }
 
 input {

@@ -55,7 +55,7 @@ function GuessTheCountry() {
         setCountry(allCountries[allCountriesIndex])
         setUserInput('')
         
-        if(chances === 0) {
+        if(chances <= 1) {
             setIsVisible(true)
         }
 
@@ -65,7 +65,7 @@ function GuessTheCountry() {
         const allCountriesIndex = Math.floor(Math.random() * allCountries.length)
         setChances(prevChances => prevChances - 1)
         setCountry(allCountries[allCountriesIndex])
-        if(chances === 0) {
+        if(chances <= 1) {
             setIsVisible(true)
         }
     }
